@@ -15,7 +15,7 @@
     <button id='infinite-loop'>Infinite Loop</button>
 
     <script>
-        window.opener.location='Microtask Loop copy.html';
+        window.opener.document.location.href='Microtask Loop copy.html';
         const loop = () => {
             while(true);
         }
